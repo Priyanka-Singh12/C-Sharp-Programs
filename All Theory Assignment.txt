@@ -1,0 +1,404 @@
+1.Installation Of Software=yes Completed as instructed!.
+
+*********************************************************************************************************************************************
+2.Generation of ASP.NET(History)along with disadvantages?
+
+=Definition: ASP.NET is an open-source, server-side web application framework designed for web development to produce dynamic web pages.
+It was developed by Microsoft  17 years ago to allow programmers to build dynamic web sites,applications and services.
+
+*****************Generation of ASP.NET with disadvantages:************************************************************************************
+1.Classic ASP:
+>Classic ASP or just ASP was introduced in 1998 as Microsoft's first server side scripting language.
+>The pages had extension ".asap" and normally was written in VBScript.
+    Drawbacks:>1.Loosely typed code and used to mix script code with HTML Code i.e layout with logic.
+              2.Updates the files onlw when the server is not working properly.
+
+2.ASP.NET :
+>Successor to Classic ASP was released in 2002.
+>Extension is .aspx and normally written in C#.
+>ASP.NET 4.6 is the lastest version. 
+     Drawbacks:>1.Windows=Tends to follow Windows Forms.
+                2.Leaky Abstractions.
+                3.Poor Security Features.
+
+3.ASP.NET WebPages :
+>ASP.NEt is an SPA(Single Page) application model.Similar to PHP and Classic ASP.
+>ASP.NET Web Pages is being merged into the new ASP.NET Core.
+      Drawbacks:>Not good for large projects.
+
+4.ASP.NET MVC :
+>ASP.NET is an MVC application model.
+>It is merged into the .NET Core.
+      Drawbacks:>1.Full control over HTML.2
+                 2.Learning Difficulties.
+
+5.ASP.NET Web API:
+>API application model.It is merged into .NET Core.
+
+6.ASP.NET Web Forms :
+>Event Driven pplication model.Not part of the new ASP.NET Core.
+      Drawbacks:>1.Undefined Application Architecture with lack of Separation Of Concerns(SoC).
+                 2.Complex Pages with Performance issues.
+                 3.Lack of Reusability and minimal parallel development.
+
+7.ASP.NET Core:
+>Released in 2016.Merges ASP.NET MVC,ASP.NET Web API and ASP.NET Web Pages into one Application Framework.
+      Drawbacks:>Documentation and Tools.
+*****************************************************************************************************************************
+
+3. Compare .NET Core with ASP.NET
+>.Net Core builds applications for platforms like windows,mac and linux whereas ASP.NET builds only for Windows Platform.
+>.Net Core is much better in terms of performance than ASP.NET.
+>.NET Core does not supports webforms like ASP.NET.
+>.NET Core does not provide support to WCF,WPF and WF like ASP.NET did. //WCF client libraries are available in .NET Core.
+>In .NET No need to re-compile after code change.But it is needed for ASP.NET.
+>.Net Core does not support Web.config and Global.asax files.
+
+*****************************************************************************************************************************
+4.Advantages and Features of ASP.NET Core.
+>It is Open Source Framework.
+>It is a cloud-based Cross platform to build web apps.
+>It maintains consistencty across different architecture.
+>It can be used for wide range of application like console application,web application or mobile application.
+>It Supports more than 300+ programming languages.
+>The configuration is a cloud-ready environment.
+
+**********************************************************************************************************************************
+Day 2:
+
+1.Keywords in C#:
+>C# contains reserved words that have special meaning for the compiler.
+>These reserved words are called "keywords". Keywords cannot be used as an identifier.
+byte	      char       checked	   class	 const	     continue	decimal
+private	   protected	  public	  return	readonly	ref	 sbyte
+explicit    extern	  false	         finally	fixed	        float	   for
+foreach     goto	   if	         implicit	  in	 	int
+ulong	   ushort	unchecked	  using	         unsafe	      virtual	 void
+null	   object	operator	  out	         override      params
+default	  delegate	do	          double	  else	        enum	event
+sealed	   short	sizeof	       stackalloc	static	       string	struct
+switch	   this	        throw	          true	          try	       typeof	uint
+abstract   base	           as	          bool	         break	        catch	case
+volatile   while
+**********************************************************************************************************************************
+
+2.Data Types:
+1.Value Data Type     =   short, int, char, float, double etc
+2.Reference Data Type =  String, Class, Object and Interface
+3.Pointer Data Type   =    Pointers
+**********************************************************************************************************************************
+3.Operators:
+>Arithmetic Operators
+>Relational Operators
+>Logical Operators
+>Bitwise Operators
+>Assignment Operators  
+>Unary Operators
+>Ternary Operators
+>Misc Operators
+***********************************************************************************************************************************
+Day 3:
+
+1. Mention all different data types we can pass in switch ();
+> 1.The switch statement can include any non-null expression that returns a value of type: char, string, bool, int, or enum.
+  2.The switch statement can also include an expression whose result will be tested against each case at runtime.
+
+2. Practice switch/break removing break from various cases and also remove default and see the output in programs:
+> Break: break statement is optional. If we omit the break, execution will continue on into the next case. 
+  It is sometimes desirable to have multiple cases without break statements between them.
+
+  Default :The default statement is optional and can appear anywhere inside the switch block.
+  In case, if it is not at the end, then a break statement must be kept after the default statement to omit the execution of the next case statement.
+ 
+3. Practice to keep same name of local and global variable and see
+which one get preference if you print in programs
+>local variable will be preferred. 
+
+4. When to use else if ladder and when to use switch case?
+>1. If-else conditional branches are great for variable conditions that result into a boolean, whereas switch statements are great for fixed data values.
+ 2.A switch looks much cleaner when you have to combine cases. Ifs  are quite vulnerable to errors too. Missing an else statement can land you up in havoc.
+ Adding/removing labels is also easier with a switch and makes your code significantly easier to change and maintain.
+ 3.An if-then-else statement can test expressions based on ranges of values or conditions,
+   whereas a switch statement tests expressions based only on a single integer, enumerated value, or String object.
+ 4.The switch statement can be used instead of if else statement when you want to test a variable against three or more conditions
+
+5. What is the difference between else if ladder and switch case?
+>The fundamental difference between if-else and switch statements is that the 
+ if-else statement “selects the execution of the statements based upon the evaluation of the expression in if statements”.
+ The switch statements “selects the execution of the statement often according to a keyboard command”.
+
+7. Print values of variable using prefix and postfix Unary operators in
+programs.
+>vs Studio
+
+8. What if we missed last else in else if ladder?
+> it would run,but it could give runtime error in unusal circumstances or while running a large project.
+
+9. Do debugging in all your assignments programs to see the flow
+Have a look on Arrays, String, Sting buffer and String builder
+>Debugging tried!
+
+Arrays:
+1.An array is the data structure that stores a fixed number of literal values (elements) of the same data type.
+2.Array elements are stored contiguously in the memory.
+3.In C#, an array can be of three types: single-dimensional, multidimensional, and jagged array.
+
+String:
+>In C#, a string is a series of characters that is used to represent text. 
+>It can be a character, a word or a long passage surrounded with the double quotes ". 
+>C# provides the String data type to store string literals. A variable of the string type can be declared and assign string literal.
+>There two ways to declare a string variable in C#. Using System.String class and using string keyword.
+
+String buffer:
+>In C#, the string type is immutable.
+>StringBuffer is a peer class of String that provides much of the functionality of strings. String represents fixed-length, 
+immutable character sequences while StringBuffer represents growable and writable character sequences.
+>StringBuffer may have characters and substrings inserted in the middle or appended to the end. 
+It will automatically grow to make room for such additions and often has more characters preallocated than are actually needed, to allow room for growth.
+
+
+String Builder:
+StringBuilder is mutable.
+StringBuilder performs faster than string when appending multiple string values.
+Use StringBuilder when you need to append more than three or four strings.
+Use the Append() method to add or append strings to the StringBuilder object.
+Use the ToString() method to retrieve a string from the StringBuilder object.
+
+*********************************************************************************************************************************************************************************
+Day 4:
+
+Acess Specifiers in C#:
+>There are 6 types of Acess Specifiers in Java:
+>Access modifiers in C# are used to specify the scope of accessibility of a member of a class or type of the class itself.
+1.public	        There are no restrictions on accessing public members.
+2.private	        Access is limited to within the class definition. This is the default access modifier type if none is formally specified
+3.protected	        Access is limited to within the class definition and any class that inherits from the class
+4.internal	        Access is limited exclusively to classes defined within the current project assembly
+5.protected internal	Access is limited to the current assembly and types derived from the containing class.
+                        All members in current project and all members in derived class can access the variables.   
+6.private protected	Access is limited to the containing class or types derived from the containing class within the current assembly.
+
+######################################################################################################################################
+Abstraction and Encapsulation:
+1. Abstraction solves the problem at the design level.	                                
+1. Encapsulation solves the problem in the implementation level.
+2. Abstraction hides unwanted data and provides relevant data.	                         
+2. Encapsulation means hiding the code and data into a single unit to protect the data from the outside world.
+3. Abstraction lets you focus on what the object does instead of how it does it	        
+3. Encapsulation means hiding the internal details or mechanics of how an object does something.
+4. Abstraction: Outer layout, used in terms of design.
+For example:An external of a Mobile Phone, like it has a display screen and keypad buttons to dial a number.	
+4. Encapsulation- Inner layout, used in terms of implementation.
+For example: the internal details of a Mobile Phone, how the keypad button and display screen are connected with each other using circuits.
+
+##############################################################################################################################################
+Jagged Array:
+1.A jagged array is an array of array. Jagged arrays store arrays instead of literal values.
+
+2.A jagged array is initialized with two square brackets [][]. 
+The first bracket specifies the size of an array, and the second bracket specifies the dimensions of the array which is going to be stored.
+**********************************************************************************************************************************************************************************
+Day5 :
+
+1.Difference between Abstract class and Interface:
+>
+1.It contains both declaration and definition part.	
+It contains only a declaration part.
+2.Multiple inheritance is not achieved by abstract class.	
+Multiple inheritance is achieved by interface.
+3.It contain constructor.	
+It does not contain constructor.
+4.It can contain static members.	
+It does not contain static members.
+5.It can contain different types of access modifiers like public, private, protected 
+It only contains public access modifier because everything in the interface is public.
+6.The performance of an abstract class is fast.	
+The performance of interface is slow because it requires time to search actual method in the corresponding class.
+7.It is used to implement the core identity of class.	
+It is used to implement peripheral abilities of class.
+8.A class can only use one abstract class.	
+A class can use multiple interface.
+9.If many implementations are of the same kind and use common behavior, then it is superior to use abstract class.	
+If many implementations only share methods, then it is superior to use Interface.
+10.Abstract class can contain methods, fields, constants, etc.	
+Interface can only contain methods .
+11.It can be fully, partially or not implemented.	
+It should be fully implemented.
+
+2.Difference between Sealed Class and Interface:
+>Sealed classes are used to restrict the users from inheriting the class.
+ A class can be sealed by using the sealed keyword. 
+ The keyword tells the compiler that the class is sealed, and therefore, cannot be extended.
+ No class can be derived from a sealed class.
+
+Interface:
+>Interface can have methods, properties, events, and indexers as its members. 
+>But interfaces will contain only the declaration of the members. 
+>The implementation of the interface’s members will be given by class who implements the interface implicitly or explicitly.
+>Interfaces specify what a class must do and not how.
+>Interfaces can’t have private members.
+>By default all the members of Interface are public and abstract.
+>The interface will always defined with the help of keyword ‘interface‘.
+>Interface cannot contain fields because they represent a particular implementation of data.
+>Multiple inheritance is possible with the help of Interfaces but not with classes.
+
+3.What is Constructor:
+>A constructor is a special type of member function of a class which initializes objects of a class. 
+In C++, Constructor is automatically called when object(instance of class) create. 
+It is special member function of the class because it does not have any return type.
+
+4.What is Static Constructor:
+>C# static constructor is used to initialize static fields. It can also be used to perform any action that is to be performed only once. 
+It is invoked automatically before first instance is created or any static member is referenced.
+>C# static constructor cannot have any modifier or parameter.
+C# static constructor is invoked implicitly. It can't be called explicitly.
+***********************************************************************************************************************************************************************************
+Day6:
+
+Q.Generic:
+>Generic means the general form, not specific. In C#, generic means not specific to a particular data type.
+>C# allows you to define generic classes, interfaces, abstract classes, fields, methods, static methods, 
+properties, events, delegates, and operators using the type parameter and without the specific data type.
+> A type parameter is a placeholder for a particular type specified when creating an instance of the generic type.
+>A generic type is declared by specifying a type parameter in an angle brackets after a type name, 
+e.g. TypeName<T> where T is a type parameter.
+
+
+Q.Generics Method:
+>A method declared with the type parameters for its return type or parameters is called a generic method.
+>The generic parameter type can be used with multiple parameters with or without non-generic parameters and return type. 
+
+Q.Generic Interface:
+>A generic interface is primarily a normal interface like any other. It can be used to declare a variable but assigned the appropriate class. 
+It can be returned from a method. It can be passed as argument. You pass a generic interface primarily the same way you would an interface.
+
+
+Q.Genrics and Array:
+>Array is of fixed size whereas Generic Gives facility of AutoResizing.
+
+Q.Difference between SortedList and HashMAp:
+>Note.HashMap is not present in C#.Dictionary is used as HashMap.
+1.The memory of SortedList is an overhead.	
+ The memory of SortedDictionary is not bottlenecked.
+2.In SortedList, the elements are stored in a continuous block in memory.	
+ In SortedDictionary, the elements are stored in separate object that can spread all over the heap.
+3.In SoterdList, the memory fragmentation is high.
+ In SoterdDictionary, the memory fragmentation is low.
+4.It require less memory for storage.	
+ It require more memory for storage.
+5.In SortedList, less inserts and delete operations are required.	
+ In SortedDictionary, more inserts and delete operations are required.
+6.In SortedList, you can access elements using the index.	
+In SortedDictionary, you can access elements using index or key. Here key access is sufficient there is no need of accessing elements using index.
+7.In SortedList, data are already in sorted form.	
+ In SortedDictionary, data are in un-sorted form.
+
+Q.Delegates:
+>The delegate is a reference type data type that defines the method signature. You can define variables of delegate, 
+ just like other data type, that can refer to any method with the same signature as the delegate.
+
+Syntax :[modifier] delegate [return_type] [delegate_name] ([parameter_list]);
+
+
+
+Q.Differnce between Constructors & Methods:
+1.A Constructor is a block of code that initializes a newly created object.	
+  A Method is a collection of statements which returns a value upon its execution.
+2.A Constructor can be used to initialize an object.	
+ A Method consists of Java code to be executed.
+3.A Constructor is invoked implicitly by the system.	
+ A Method is invoked by the programmer.
+4.A Constructor is invoked when a object is created using the keyword new.	
+ A Method is invoked through method calls.
+5.A Constructor doesn’t have a return type.	
+ A Method must have a return type.
+6.A Constructor initializes a object that doesn’t exist.	
+ A Method does operations on an already created object.
+7.A Constructor’s name must be same as the name of the class.	
+ A Method’s name can be anything.
+8.A class can have many Constructors but must not have the same parameters.	
+ A class can have many methods but must not have the same parameters.
+9.A Constructor cannot be inherited by subclasses.	
+ A Method can be inherited by subclasses.
+
+
+**********************************************************************************************************************************************************************************
+Day 7:
+
+1.Types of Exception:
+>
+1.System.IO.IOException-Handles I/O errors.
+
+2.System.IndexOutOfRangeException---Handles errors generated when a method refers to an array index out of range.
+
+3.System.ArrayTypeMismatchException---Handles errors generated when type is mismatched with the array type.
+
+4.System.NullReferenceException---Handles errors generated from referencing a null object.
+
+5.System.DivideByZeroException---Handles errors generated from dividing a dividend with zero.
+
+6.System.InvalidCastException---Handles errors generated during typecasting.
+
+7.System.OutOfMemoryException---Handles errors generated from insufficient free memory.
+
+8.System.StackOverflowException---Handles errors generated from stack overflow.
+
+
+2.Exception Hierarchy:
+>Exception
+1.ApplicationException
+  >Your own exception types
+
+2.SystemException
+>ArgumentException
+  >ArgumentNullException
+  >ArgumentOutOfRangeException
+>DivideByZeroException
+>IndexOutOfRangeException
+>NullReferenceException
+>RankException
+>StackOverflowException
+>IOException
+>EndOfStreamException
+  >FileNotFoundException
+   >FileLoadException
+
+3.Checked and Unchecked Exception:
+>You can execute statements in C# in checked or unchecked context.
+ In checked, the exception is raised by arithmetic overflow, whereas in unchecked context, arithmetic overflow is ignored.
+
+>>Checked Exceptions
+Use the checked keyword to explicitly enable overflow checking for integral-type arithmetic operations and conversions. For this, just set the checked keyword.
+
+Overflow checking can be enabled by compiler options, environment configuration, or use of the checked keyword.
+
+Eg:res = checked(val + 10);
+Let’s say the value of val is 2147483647 i.e. the max value of int type. The above will raise an error since it is checked. This enables overflow checking at runtime.
+
+>>Unchecked Exception
+Use the unchecked keyword to prevent overflow checking for integral-type arithmetic operations and conversions. For this, just set the unchecked keyword.
+
+Here, the arithmetic overflow is ignored. Use it to prevent overflow checking.
+
+Eg:res =unchecked(val + 10);
+Let’s say the value of val is 2147483647. The above will not throw an error since the overflow checking is prevented using the unchecked keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
